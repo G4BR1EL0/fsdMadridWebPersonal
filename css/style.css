@@ -1,5 +1,3 @@
-body{
-}
 .contenido{
     display: flex;
     flex-direction: row;
@@ -107,4 +105,20 @@ body{
     padding-bottom: 1em;
     border-bottom-right-radius: 2em;
     border-bottom-left-radius: 2em;
+}
+.contacto{
+    width: 66em;
+    display: grid;
+    border-radius: 2em;
+    grid-template-columns:repeat(2,1fr);
+    padding: 2em;
+    align-items: center;
+}
+.linkedin{
+    width: 20em;
+    border-radius: 2em;
+}
+.github{
+    width: 20em;
+    border-radius: 2em;
 }
