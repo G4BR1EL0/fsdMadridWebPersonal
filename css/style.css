@@ -1,0 +1,110 @@
+body{
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fondo{
+    background-color: #bdecb6;
+    width: 70em;
+    margin: 2em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    text-align: center;
+}
+.contenedorArticulo{
+    width: 66em;
+    background-color: #1d4f2c;
+    background-color: #1e5945;
+    color: white;
+    font-weight: bold;
+    border-radius: 2em;
+    text-align: center;
+}
+.espacioBlanco{
+    height: 2em;
+}
+.navegacionRapida{
+    background-color: black;
+    color: white;
+    height: 20em;
+    width: 20em;
+    margin-top: 2em;
+    margin-right: 2em;
+    border-radius: 2em;
+    padding: 2em;
+}
+.enlace{
+    color: white;
+    text-decoration: none;
+}
+.tecnologiasBootcamp{
+    width: 100%;
+    display: grid;
+    border-radius: 2em;
+    grid-template-columns:repeat(9,1fr);
+}
+.tecnologia{
+    background-color: white;
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.imgTech{
+    width:100%;
+}
+.imgTech2{
+    height: 100%;
+}
+.primero{
+    border-bottom-left-radius: 2em;
+}
+.ultimo{
+    border-bottom-right-radius: 2em;
+}
+.tecnologiasDBA{
+    width: 100%;
+    display: grid;
+    border-radius: 2em;
+    grid-template-columns:repeat(6,1fr);
+}
+.tecnologiasPOO{
+    width: 100%;
+    display: grid;
+    border-radius: 2em;
+    grid-template-columns:repeat(7,1fr);
+}
+.intereses{
+    width: 100%;
+    display: grid;
+    border-radius: 2em;
+    grid-template-columns:repeat(3,1fr);
+}
+.pie{
+    background-color: #222222;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center
+}
+.autor{
+    margin: 0;
+}
+.imgConsola{
+    width: 90%;
+}
+.imagenConsola{
+    width: 100%;
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
